@@ -3,7 +3,6 @@ package org.smokeeaasd.mpowers.listeners;
 import org.bukkit.Location;
 import org.bukkit.Sound;
 import org.bukkit.World;
-import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
@@ -15,7 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MobEventListener implements Listener {
-    private List<EntityType> allowedMobs = Arrays.asList(
+    private final List<EntityType> allowedMobs = Arrays.asList(
             EntityType.CHICKEN,
             EntityType.SPIDER,
             EntityType.RABBIT,
