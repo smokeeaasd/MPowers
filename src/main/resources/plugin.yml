@@ -1,0 +1,4 @@
+name: MPowers
+version: '${project.version}'
+main: org.smokeeaasd.mpowers.MPowers
+api-version: '1.20'
